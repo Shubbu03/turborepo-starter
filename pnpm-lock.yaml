@@ -85,6 +85,9 @@ importers:
 
   apps/ws-server:
     devDependencies:
+      '@repo/auth':
+        specifier: workspace:*
+        version: link:../../packages/auth
       '@repo/prisma':
         specifier: workspace:*
         version: link:../../packages/prisma
