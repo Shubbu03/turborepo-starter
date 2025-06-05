@@ -115,6 +115,6 @@ app.post("/login", async (req: Request, res: Response): Promise<void> => {
   }
 });
 
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log("Express Server started on port 3000");
 });
